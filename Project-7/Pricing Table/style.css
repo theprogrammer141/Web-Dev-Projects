@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@700&display=swap');
+
+body{
+    font-family: 'Sono', sans-serif;
+}
+
+.plan-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.pricing-plan{
+    flex: 1;
+    background-color: lightgrey;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;    
+}
+
+
+.plan-price{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-features{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.plan-features li{
+    margin-bottom: 20px;
+}
+
+.signup-btn{
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+@media(max-width: 1250px){
+    .plan-container{
+        flex-direction: column;
+        height: 100%;
+    }
+}
