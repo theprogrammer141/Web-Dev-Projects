@@ -7,3 +7,4 @@
 <p>Project-5: Flag of Laos</p>
 <p>Project-6: Design Agency Website</p>
 <p>Project-7: Pricing Table</p>
+<p>Project-8: Blog Website</p>
