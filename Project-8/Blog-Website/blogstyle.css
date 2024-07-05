@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+IT+Moderna:wght@100..400&family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+IT+Moderna:wght@100..400&family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+IT+Moderna:wght@100..400&family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.top-container{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.top-container > div > div > h2,h4{
+    text-transform: capitalize;
+    color:aliceblue;
+}
+
+.bg-image{
+    background-image: linear-gradient(to bottom right, black, grey);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-container{
+    /* display: flex; */
+    flex: 1 1 0;
+    background-image: linear-gradient(to bottom right, black, grey);
+    padding: 40px;
+}
+
+#featured-blog-post > .card-body > .card-title{
+    font-family: "Playwrite US Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#featured-blog-post > .card-body > .card-text{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#featured-blog-post > .card-body > .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#blog-card-1 > .card-body > .card-title{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#blog-card-1 > .card-body > .card-text{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#blog-card-1 > .card-body > .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#blog-card-2 > .card-body > .card-title{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#blog-card-2 > .card-body > .card-text{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#blog-card-2 > .card-body > .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#blog-card-3 > .card-body > .card-title{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#blog-card-3 > .card-body > .card-text{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#blog-card-3 > .card-body > .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#blog-card-4 > .card-body > .card-title{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#blog-card-4 > .card-body > .card-text{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#blog-card-4 > .card-body > .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#side-card-1 > .card-header{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#side-card-1 > .card-body > .input-group > button:hover{
+    background-color: white;
+    color: black;
+}
+
+#side-card-1 > .card-body > .input-group > ::placeholder{
+    color: white;
+}
+
+#side-card-2 > .card-header{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#side-card-3 > .card-header{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#side-card-3 > .card-body{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#side-card-2 > .card-body > div > div > ul > li > a:hover{
+    color: whitesmoke;
+}
+
+nav > .pagination > .page-item:hover{
+    background-color: white;
+}
+
+footer{
+    direction: ltr;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, black, grey);
+    padding: 20px;
+}
+
+footer > div > p{
+    color: whitesmoke;
+    font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    margin: 0;
+}
+
+@media(min-width:1200px) and (max-width: 1920px){
+    #featured-blog-post{
+        width: 600px;
+        height: 900px;
+    }
+}

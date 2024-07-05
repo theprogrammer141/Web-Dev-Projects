@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, black, grey) ;
+    height: 80vh;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.display-2{
+    color: whitesmoke;
+    margin: 0;
+    padding: 20px;
+}
+
+.lead{
+    color: whitesmoke;
+    font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    margin-top: 15px;
+}
+
+h1{
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+    border-radius: 5%;
+    opacity: 0.5;
+
+}
+
+.btn:hover{
+    opacity: 1.0;
+    background-image: linear-gradient(to bottom right, rgb(253, 253, 113), rgb(46, 50, 43));
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+
+
+.footer-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    background-image: linear-gradient(to right bottom, black, grey);
+    padding: 20px;
+}
+
+.footer-p{
+    color: whitesmoke;
+    font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    margin: 0;
+}
