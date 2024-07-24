@@ -8,3 +8,7 @@
 <p>Project-6: Design Agency Website</p>
 <p>Project-7: Pricing Table</p>
 <p>Project-8: Blog Website</p>
+<p>Project-9: The Dice Challenge</p>
+<p>Project-10: The Drum Kit</p>
+<p>Project-11: The Simon Game</p>
+
