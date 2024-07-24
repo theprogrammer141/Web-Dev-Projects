@@ -24,6 +24,7 @@ for(let i = 0; i < document.querySelectorAll(".button").length; i++){
 }
 
 function nextSequence(){
+    userClickedPattern = [];
     level++;
     document.querySelector("h1").innerText = "Level" + "  " + level;
 
@@ -108,7 +109,6 @@ function checkAnswer(currentLevel){
         if(userClickedPattern.length === gamePattern.length){
             setTimeout(() =>{
                 nextSequence();
-                userClickedPattern = [];
             }, 1000);
         }
     }
