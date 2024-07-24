@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(15, 7, 76);
+}
+
+.heading-container{
+    font-size: 2rem;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    text-align: center;
+    margin: 100px;
+    color: burlywood;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    height: 500px;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-top: 100px;
+}
+
+#green{
+    background-color: green;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#blue{
+    background-color: blue;
+}
+
+.button{
+    border-radius: 50px;
+    border-color: black;
+    border-style: groove;
+    border-width: 20px;
+}
+
+.pressed{
+    box-shadow: 5px 10px 5px 10px;
+    background-color: whitesmoke;
+}
+
+.game-over{
+    .button-container{
+        margin-top: 300px;
+    }
+    background-color: red;
+}
+
+@media(min-width: 320px) and (max-width: 480px){
+    .button{
+        width: 200px;
+        height: 200px;
+    }
+}
+
