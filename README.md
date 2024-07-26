@@ -11,4 +11,5 @@
 <p>Project-9: The Dice Challenge</p>
 <p>Project-10: The Drum Kit</p>
 <p>Project-11: The Simon Game</p>
+<p>Project-12: QR Code Generator</p>
 
